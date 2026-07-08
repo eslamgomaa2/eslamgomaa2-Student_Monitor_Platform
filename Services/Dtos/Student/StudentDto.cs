@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Services.Dtos.Student
+{
+    public record StudentDto(
+         int StudentID,
+         string? FullName,
+         string? NationalID,
+         DateOnly DateOfBirth,
+         string? Gender,
+         string? Grade,
+         string? Section,
+         int AcademicYear,
+         bool IsActive
+     );
+}
